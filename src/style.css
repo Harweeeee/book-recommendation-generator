@@ -69,6 +69,11 @@ form {
     margin-left: 125px;
     margin-top: 80px;
     border-left: 3px #9d7854 solid;
+    max-width: fit-content;
+}
+
+a {
+    color: #826140;
 }
 
 footer {
