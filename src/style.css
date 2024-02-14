@@ -64,6 +64,17 @@ form {
     background-color: #faedcd;
 }
 
+#hint {
+    color: #faedcd;
+    margin: 0;
+    text-align: center;
+    font-size: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
 #generated-book {
     padding: 15px;
     margin-left: 125px;
