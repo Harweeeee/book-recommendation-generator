@@ -5,20 +5,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Book recommendation generator</title>
         <link rel="stylesheet" href="src/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <heading>
-            <h1>Book Recommendation Generator</h1>
-            <div id="website-description">
-                For when you love reading books, but don't know what title to
-                read next
+        <header>
+            <div id="container">
+                <h1>Chapter Champion</h1>
+                <div id="website-description">
+                    For when you love reading books, but don't know what title
+                    to read next. <br />
+                    Enter a book category to find your next read.
+                </div>
+                <form>
+                    <input
+                        id="text-input"
+                        type="text"
+                        placeholder="Enter a book category"
+                    />
+                    <input id="submit-button" type="submit" />
+                </form>
             </div>
-        </heading>
+        </header>
         <main>
-            <form>
-                <input type="text" placeholder="Enter a book category" />
-                <input type="submit" />
-            </form>
             <div id="book-title">A court of thorns and roses</div>
             <div id="book-description">
                 When nineteen-year-old huntress Feyre kills a wold in the woods,
@@ -26,9 +39,14 @@
             </div>
         </main>
         <footer>
-            This project is coded by <a href="#">Harleigh Gallant</a> and is
-            open-sourced on <a href="#">GitHub</a> and is hosted on
-            <a href="#">Netflify</a>
+            This project is coded by
+            <a href="https://github.com/Harweeeee">Harleigh Gallant</a> and is
+            open-sourced on
+            <a href="https://github.com/Harweeeee/book-recommendation-generator"
+                >GitHub</a
+            >
+            and is hosted on
+            <a href="https://chapter-champion.netlify.app/">Netflify</a>
         </footer>
 
         <script src="src/index.js"></script>
