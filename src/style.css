@@ -56,4 +56,23 @@ form {
     border: none;
     color: #826140;
     border-radius: 4px;
+    font-family: 'Roboto Slab';
+}
+
+#submit-button:hover {
+    cursor: pointer;
+    background-color: #faedcd;
+}
+
+#generated-book {
+    padding: 15px;
+    margin-left: 125px;
+    margin-top: 80px;
+    border-left: 3px #9d7854 solid;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 80px;
 }
